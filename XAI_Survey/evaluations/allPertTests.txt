@@ -1,0 +1,107 @@
+python3 evaluatePerturbation.py --model R101 --attr_func grad --image_count 1000 --cuda_num 0
+python3 evaluatePerturbation.py --model R101 --attr_func inp_x_grad --image_count 1000 --cuda_num 0
+python3 evaluatePerturbation.py --model R101 --attr_func ig --image_count 1000 --cuda_num 0
+python3 evaluatePerturbation.py --model R101 --attr_func lig --image_count 1000 --cuda_num 0
+python3 evaluatePerturbation.py --model R101 --attr_func idg --image_count 1000 --cuda_num 0
+python3 evaluatePerturbation.py --model R101 --attr_func sg --image_count 1000 --cuda_num 0
+python3 evaluatePerturbation.py --model R101 --attr_func gig --image_count 1000 --cuda_num 0
+python3 evaluatePerturbation.py --model R101 --attr_func agi --image_count 1000 --cuda_num 0
+python3 evaluatePerturbation.py --model R101 --attr_func xrai --image_count 1000 --cuda_num 0
+python3 evaluatePerturbation.py --model R101 --attr_func gc --image_count 1000 --cuda_num 0
+python3 evaluatePerturbation.py --model R101 --attr_func gbp --image_count 1000 --cuda_num 0
+python3 evaluatePerturbation.py --model R101 --attr_func ggc --image_count 1000 --cuda_num 0
+python3 evaluatePerturbation.py --model R101 --attr_func gs --image_count 1000 --cuda_num 0
+python3 evaluatePerturbation.py --model R101 --attr_func lime --image_count 1000 --cuda_num 0
+python3 evaluatePerturbation.py --model R101 --attr_func fa --image_count 1000 --cuda_num 0
+python3 evaluatePerturbation.py --model R101 --attr_func occ --image_count 1000 --cuda_num 0
+
+
+python3 evaluatePerturbation.py --model RNXT --attr_func grad --image_count 1000 --cuda_num 1
+python3 evaluatePerturbation.py --model RNXT --attr_func inp_x_grad --image_count 1000 --cuda_num 1
+python3 evaluatePerturbation.py --model RNXT --attr_func ig --image_count 1000 --cuda_num 1
+python3 evaluatePerturbation.py --model RNXT --attr_func lig --image_count 1000 --cuda_num 1
+python3 evaluatePerturbation.py --model RNXT --attr_func idg --image_count 1000 --cuda_num 1
+python3 evaluatePerturbation.py --model RNXT --attr_func sg --image_count 1000 --cuda_num 1
+python3 evaluatePerturbation.py --model RNXT --attr_func gig --image_count 1000 --cuda_num 1
+python3 evaluatePerturbation.py --model RNXT --attr_func agi --image_count 1000 --cuda_num 1
+python3 evaluatePerturbation.py --model RNXT --attr_func xrai --image_count 1000 --cuda_num 1
+python3 evaluatePerturbation.py --model RNXT --attr_func gc --image_count 1000 --cuda_num 1
+python3 evaluatePerturbation.py --model RNXT --attr_func gbp --image_count 1000 --cuda_num 1
+python3 evaluatePerturbation.py --model RNXT --attr_func ggc --image_count 1000 --cuda_num 1
+python3 evaluatePerturbation.py --model RNXT --attr_func gs --image_count 1000 --cuda_num 1
+python3 evaluatePerturbation.py --model RNXT --attr_func lime --image_count 1000 --cuda_num 1
+python3 evaluatePerturbation.py --model RNXT --attr_func fa --image_count 1000 --cuda_num 1
+python3 evaluatePerturbation.py --model RNXT --attr_func occ --image_count 1000 --cuda_num 1
+
+
+
+python3 evaluatePerturbation.py --model VIT32 --attr_func attn --image_count 1000 --cuda_num 2
+python3 evaluatePerturbation.py --model VIT32 --attr_func grad --image_count 1000 --cuda_num 2
+python3 evaluatePerturbation.py --model VIT32 --attr_func n_rollout --image_count 1000 --cuda_num 2
+python3 evaluatePerturbation.py --model VIT32 --attr_func rollout --image_count 1000 --cuda_num 2
+python3 evaluatePerturbation.py --model VIT32 --attr_func t_attn --image_count 1000 --cuda_num 2
+python3 evaluatePerturbation.py --model VIT32 --attr_func bi_attn --image_count 1000 --cuda_num 2
+python3 evaluatePerturbation.py --model VIT32 --attr_func t_attr --image_count 1000 --cuda_num 2
+python3 evaluatePerturbation.py --model VIT32 --attr_func VIT_CX --image_count 1000 --cuda_num 2
+python3 evaluatePerturbation.py --model VIT32 --attr_func TIS --image_count 1000 --cuda_num 2
+python3 evaluatePerturbation.py --model VIT32 --attr_func InFlow --image_count 1000 --cuda_num 2
+python3 evaluatePerturbation.py --model VIT32 --attr_func MDA --image_count 1000 --cuda_num 2
+
+python3 evaluatePerturbation.py --model CLIP32 --attr_func eclip --image_count 1000 --cuda_num 2
+python3 evaluatePerturbation.py --model CLIP32 --attr_func eclip_wo --image_count 1000 --cuda_num 2
+python3 evaluatePerturbation.py --model CLIP32 --attr_func game --image_count 1000 --cuda_num 2
+python3 evaluatePerturbation.py --model CLIP32 --attr_func maskclip --image_count 1000 --cuda_num 2
+python3 evaluatePerturbation.py --model CLIP32 --attr_func rollout --image_count 1000 --cuda_num 2
+python3 evaluatePerturbation.py --model CLIP32 --attr_func selfattn --image_count 1000 --cuda_num 2
+python3 evaluatePerturbation.py --model CLIP32 --attr_func surgery --image_count 1000 --cuda_num 2
+python3 evaluatePerturbation.py --model CLIP32 --attr_func m2ib --image_count 1000 --cuda_num 2
+python3 evaluatePerturbation.py --model CLIP32 --attr_func lrp --image_count 1000 --cuda_num 2
+
+
+python3 evaluatePerturbation.py --model VIT16 --attr_func attn --image_count 1000 --cuda_num 3
+python3 evaluatePerturbation.py --model VIT16 --attr_func grad --image_count 1000 --cuda_num 3
+python3 evaluatePerturbation.py --model VIT16 --attr_func n_rollout --image_count 1000 --cuda_num 3
+python3 evaluatePerturbation.py --model VIT16 --attr_func rollout --image_count 1000 --cuda_num 3
+python3 evaluatePerturbation.py --model VIT16 --attr_func t_attn --image_count 1000 --cuda_num 3
+python3 evaluatePerturbation.py --model VIT16 --attr_func bi_attn --image_count 1000 --cuda_num 3
+python3 evaluatePerturbation.py --model VIT16 --attr_func t_attr --image_count 1000 --cuda_num 3
+python3 evaluatePerturbation.py --model VIT16 --attr_func VIT_CX --image_count 1000 --cuda_num 3
+python3 evaluatePerturbation.py --model VIT16 --attr_func TIS --image_count 1000 --cuda_num 3
+python3 evaluatePerturbation.py --model VIT16 --attr_func InFlow --image_count 1000 --cuda_num 3
+python3 evaluatePerturbation.py --model VIT16 --attr_func MDA --image_count 1000 --cuda_num 3
+
+python3 evaluatePerturbation.py --model CLIP16 --attr_func eclip --image_count 1000 --cuda_num 3
+python3 evaluatePerturbation.py --model CLIP16 --attr_func eclip_wo --image_count 1000 --cuda_num 3
+python3 evaluatePerturbation.py --model CLIP16 --attr_func game --image_count 1000 --cuda_num 3
+python3 evaluatePerturbation.py --model CLIP16 --attr_func maskclip --image_count 1000 --cuda_num 3
+python3 evaluatePerturbation.py --model CLIP16 --attr_func rollout --image_count 1000 --cuda_num 3
+python3 evaluatePerturbation.py --model CLIP16 --attr_func selfattn --image_count 1000 --cuda_num 3
+python3 evaluatePerturbation.py --model CLIP16 --attr_func surgery --image_count 1000 --cuda_num 3
+python3 evaluatePerturbation.py --model CLIP16 --attr_func m2ib --image_count 1000 --cuda_num 3
+python3 evaluatePerturbation.py --model CLIP16 --attr_func lrp --image_count 1000 --cuda_num 3
+
+
+
+
+
+
+
+
+
+
+python3 evaluatePerturbation.py --model VIT16 --attr_func attn_grad --image_count 100 --cuda_num 0
+python3 evaluatePerturbation.py --model VIT16 --attr_func attn_grad_pre_softmax --image_count 100 --cuda_num 0
+python3 evaluatePerturbation.py --model VIT16 --attr_func attn_IG --image_count 100 --cuda_num 0
+python3 evaluatePerturbation.py --model VIT16 --attr_func attn_IG_pre_softmax --image_count 100 --cuda_num 0
+python3 evaluatePerturbation.py --model VIT16 --attr_func attn_gradcam --image_count 100 --cuda_num 0
+python3 evaluatePerturbation.py --model VIT16 --attr_func attn_gradcam_pre_softmax --image_count 100 --cuda_num 0
+
+python3 evaluatePerturbation.py --model VIT16 --attr_func input_grad --image_count 100 --cuda_num 0
+python3 evaluatePerturbation.py --model VIT16 --attr_func input_grad_no_softmax --image_count 100 --cuda_num 0
+python3 evaluatePerturbation.py --model VIT16 --attr_func input_IG --image_count 100 --cuda_num 0
+python3 evaluatePerturbation.py --model VIT16 --attr_func input_IG_no_softmax --image_count 100 --cuda_num 0
+python3 evaluatePerturbation.py --model VIT16 --attr_func input_IDG --image_count 100 --cuda_num 0
+python3 evaluatePerturbation.py --model VIT16 --attr_func input_IDG_no_softmax --image_count 100 --cuda_num 0
+
+
+
